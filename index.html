@@ -11,11 +11,18 @@
       <div class="layout">
         <aside class="sidebar">sidebar</aside>
         <main class="main">
-          <header class="toolbar">toolbar</header>
+          <header class="toolbar">
+            <div class="primitives">
+              Добавить
+              <button class="primitives__button triangle-button"></button>
+              <button class="primitives__button circle-button"></button>
+            </div>
+          </header>
           <canvas class="canvas"></canvas>
         </main>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/features/addingPrimitives/index.js"></script>
   </body>
 </html>

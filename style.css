@@ -24,10 +24,38 @@ body {
 
 .toolbar {
   background-color: purple;
-  height: 100px;
+  padding: 8px;
 }
 
 .canvas {
-  background-color: tomato;
   flex-grow: 1;
+}
+
+.primitives {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primitives__button {
+  border-radius: 16px;
+  border: unset;
+  height: 64px;
+  width: 64px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  background-color: orange;
+}
+
+.primitives__button:hover {
+  background-color: yellow;
+}
+
+.triangle-button {
+  background-image: url(icons/triangle.svg);
+}
+
+.circle-button {
+  background-image: url(icons/circle.svg);
 }
